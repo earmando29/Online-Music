@@ -1,0 +1,79 @@
+/* Style the form container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #888888;
+  }
+  
+  /* Style the form fields */
+  .form-container input[type=text],
+  .form-container input[type=number],
+  .form-container select {
+    margin: 10px 0;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  /* Style the file upload input */
+  .form-container input[type=file] {
+    margin: 10px 0;
+  }
+  
+  /* Style the submit button */
+  .form-container button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Style the submit button on hover */
+  .form-container button[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the error message */
+  .form-error {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  /* Style the album details */
+  #album-details {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #888888;
+  }
+  
+  #album-details h3 {
+    margin-top: 0;
+  }
+  
+  #album-details input[type=text],
+  #album-details input[type=number] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #album-details input[type=file] {
+    margin: 10px 0;
+  }
+  
