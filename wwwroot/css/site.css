@@ -109,3 +109,20 @@ body {
   font-size: 16px;
   margin-left: 1rem;
 }
+
+.volume-slider-container {
+  display: flex;
+  flex-direction: column;
+  width: 80px; /* set the width of the container */
+  height: 100px; /* set the height of the container */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.volume-slider {
+  writing-mode: bt-lr; /* for volume orientation */
+  transform: rotate(180deg); /* to flip the slider */
+}
+
+.volume-slider + i {
+  margin-left: 10px;
+}

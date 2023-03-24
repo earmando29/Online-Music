@@ -12,11 +12,11 @@ songName.innerHTML = "Play Something";
 playPauseButton.addEventListener("click", function() {
   if (audioPlayer.paused) {
     audioPlayer.play();
-    playPauseButton.innerHTML = "Pause"; // Change button text to "Pause"
+    playPauseButton.innerHTML = '<i class="fas fa-pause"></i>'; // Change button icon to pause
     playPauseButton.classList.add("playing"); // Add "playing" class
   } else {
     audioPlayer.pause();
-    playPauseButton.innerHTML = "Play"; // Change button text to "Play"
+    playPauseButton.innerHTML = '<i class="fas fa-play"></i>'; // Change button icon to play
     playPauseButton.classList.remove("playing"); // Remove "playing" class
   }
 });
@@ -64,3 +64,9 @@ audioPlayer.addEventListener("timeupdate", function() {
 // Call the updateCurrentTimeDisplay function on page load
 updateCurrentTimeDisplay();
 
+const audio = document.getElementById('audio-element');
+const volumeSlider = document.getElementById('volume-slider');
+
+volumeSlider.addEventListener('input', () => {
+  audioPlayer.volume = volumeSlider.value;
+});

@@ -49,31 +49,3 @@
     margin-top: 5px;
   }
   
-  /* Style the album details */
-  #album-details {
-    display: none;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #f2f2f2;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px #888888;
-  }
-  
-  #album-details h3 {
-    margin-top: 0;
-  }
-  
-  #album-details input[type=text],
-  #album-details input[type=number] {
-    width: 100%;
-    padding: 8px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  #album-details input[type=file] {
-    margin: 10px 0;
-  }
-  
