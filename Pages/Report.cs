@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyWebApp.Pages;
 
-public class TabModel : PageModel
+public class ReportModel : PageModel
 {
-    private readonly ILogger<TabModel> _logger;
+    private readonly ILogger<ReportModel> _logger;
 
-    public TabModel(ILogger<TabModel> logger)
+    public ReportModel(ILogger<ReportModel> logger)
     {
         _logger = logger;
     }
