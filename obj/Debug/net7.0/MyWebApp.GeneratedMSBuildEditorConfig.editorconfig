@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyWebApp
 build_property.RootNamespace = MyWebApp
-build_property.ProjectDir = /Users/armandoespinoza/TestWebApp/
+build_property.ProjectDir = /Users/armandoespinoza/Documents/GitHub/Online-Music/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/armandoespinoza/TestWebApp
+build_property.MSBuildProjectDirectory = /Users/armandoespinoza/Documents/GitHub/Online-Music
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/armandoespinoza/TestWebApp/Pages/Error.cshtml]
+[/Users/armandoespinoza/Documents/GitHub/Online-Music/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/armandoespinoza/TestWebApp/Pages/Index.cshtml]
+[/Users/armandoespinoza/Documents/GitHub/Online-Music/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/armandoespinoza/TestWebApp/Pages/Privacy.cshtml]
+[/Users/armandoespinoza/Documents/GitHub/Online-Music/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/armandoespinoza/TestWebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/armandoespinoza/Documents/GitHub/Online-Music/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/armandoespinoza/TestWebApp/Pages/Tab.cshtml]
+[/Users/armandoespinoza/Documents/GitHub/Online-Music/Pages/Tab.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGFiLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/armandoespinoza/TestWebApp/Pages/_ViewImports.cshtml]
+[/Users/armandoespinoza/Documents/GitHub/Online-Music/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/armandoespinoza/TestWebApp/Pages/_ViewStart.cshtml]
+[/Users/armandoespinoza/Documents/GitHub/Online-Music/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/armandoespinoza/TestWebApp/Pages/Shared/_Layout.cshtml]
+[/Users/armandoespinoza/Documents/GitHub/Online-Music/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tdy2x9681t
