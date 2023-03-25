@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/Ella_Baila_Sola-Eslabon_Armado.mp3"
     },
     {
+      "Id": "/Users/armandoespinoza/Documents/GitHub/Online-Music/wwwroot/css/report.css",
+      "PackagePath": "staticwebassets/css/report.css"
+    },
+    {
       "Id": "/Users/armandoespinoza/Documents/GitHub/Online-Music/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
