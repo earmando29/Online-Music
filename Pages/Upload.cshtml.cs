@@ -58,7 +58,7 @@ namespace MyWebApp.Pages
             command.ExecuteNonQuery();
 
             _logger.LogInformation("Data inserted into database");
-
+            connection.Close();
             return RedirectToPage("Index");
         }
     }
