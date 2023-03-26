@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "MyWebApp/1.0.0": {
+      "CoogMusic/1.0.0": {
         "dependencies": {
           "MySql.Data": "8.0.32.1"
         },
         "runtime": {
-          "MyWebApp.dll": {}
+          "CoogMusic.dll": {}
         }
       },
       "Google.Protobuf/3.21.9": {
@@ -285,7 +285,7 @@
     }
   },
   "libraries": {
-    "MyWebApp/1.0.0": {
+    "CoogMusic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

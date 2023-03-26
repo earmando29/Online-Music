@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fY3era5Tuaom4SPvkkaDioG3RnF66zNUA1u45Ze3v7HpductKL/7C4ikxvPAIjZOdJDQ1sAPre8ogsfns29duw==",
+  "dgSpecHash": "3whvZksu/8P4RhuMyyn0mTczW80Jex8eVBSfGFanFLql2d83d7Y32/m36kypuTb6HbTE5N7gn7pwj+t36UtpVw==",
   "success": true,
-  "projectFilePath": "/Users/armandoespinoza/Documents/GitHub/Online-Music/MyWebApp.csproj",
+  "projectFilePath": "/Users/armandoespinoza/Documents/GitHub/Online-Music/CoogMusic.csproj",
   "expectedPackageFiles": [
     "/Users/armandoespinoza/.nuget/packages/google.protobuf/3.21.9/google.protobuf.3.21.9.nupkg.sha512",
     "/Users/armandoespinoza/.nuget/packages/k4os.compression.lz4/1.2.6/k4os.compression.lz4.1.2.6.nupkg.sha512",

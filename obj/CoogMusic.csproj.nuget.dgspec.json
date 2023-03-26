@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/armandoespinoza/Documents/GitHub/Online-Music/MyWebApp.csproj": {}
+    "/Users/armandoespinoza/Documents/GitHub/Online-Music/CoogMusic.csproj": {}
   },
   "projects": {
-    "/Users/armandoespinoza/Documents/GitHub/Online-Music/MyWebApp.csproj": {
+    "/Users/armandoespinoza/Documents/GitHub/Online-Music/CoogMusic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/armandoespinoza/Documents/GitHub/Online-Music/MyWebApp.csproj",
-        "projectName": "MyWebApp",
-        "projectPath": "/Users/armandoespinoza/Documents/GitHub/Online-Music/MyWebApp.csproj",
+        "projectUniqueName": "/Users/armandoespinoza/Documents/GitHub/Online-Music/CoogMusic.csproj",
+        "projectName": "CoogMusic",
+        "projectPath": "/Users/armandoespinoza/Documents/GitHub/Online-Music/CoogMusic.csproj",
         "packagesPath": "/Users/armandoespinoza/.nuget/packages/",
         "outputPath": "/Users/armandoespinoza/Documents/GitHub/Online-Music/obj/",
         "projectStyle": "PackageReference",

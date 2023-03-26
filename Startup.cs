@@ -21,7 +21,7 @@ namespace MyWebApp
             {
                 FileProvider = new PhysicalFileProvider(
                     Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")),
-                RequestPath = "/MyWebApp"
+                RequestPath = "/CoogMusic"
             });
 
             app.UseRouting();
