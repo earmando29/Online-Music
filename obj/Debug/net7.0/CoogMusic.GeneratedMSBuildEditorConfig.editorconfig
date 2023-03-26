@@ -24,20 +24,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/armandoespinoza/Documents/GitHub/Online-Music/Pages/Report.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVwb3J0LmNzaHRtbA==
+[/Users/armandoespinoza/Documents/GitHub/Online-Music/Pages/Report/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVwb3J0L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/armandoespinoza/Documents/GitHub/Online-Music/Pages/Search.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VhcmNoLmNzaHRtbA==
+[/Users/armandoespinoza/Documents/GitHub/Online-Music/Pages/Search/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VhcmNoL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/armandoespinoza/Documents/GitHub/Online-Music/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/armandoespinoza/Documents/GitHub/Online-Music/Pages/Upload.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXBsb2FkLmNzaHRtbA==
+[/Users/armandoespinoza/Documents/GitHub/Online-Music/Pages/Upload/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXBsb2FkL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/armandoespinoza/Documents/GitHub/Online-Music/Pages/_ViewImports.cshtml]

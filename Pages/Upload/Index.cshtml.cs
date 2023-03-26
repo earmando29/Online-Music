@@ -7,12 +7,11 @@ using Microsoft.Extensions.Logging;
 
 namespace CoogMusic.Pages
 {
-    public class UploadModel : PageModel
+    public class IndexUploadModel : PageModel
     {
         private readonly IConfiguration _config;
-        private readonly ILogger<UploadModel> _logger;
-
-        public UploadModel(IConfiguration config, ILogger<UploadModel> logger)
+        private readonly ILogger<IndexUploadModel> _logger;
+        public IndexUploadModel(IConfiguration config, ILogger<IndexUploadModel> logger)
         {
             _config = config;
             _logger = logger;
@@ -20,8 +19,23 @@ namespace CoogMusic.Pages
         
         public void OnGet()
         {
+            try {
+                string connectionString = "server=localhost;database=online_music;uid=root;password=7985;";
+                using (MySqlConnection connection = new MySqlConnection(connectionString)) {
+                    connection.Open();
+
+                }
+            }
+            catch(Exception ex) {
+                Console.WriteLine("EXCEPTION: " + ex.ToString());
+            }
         }
 
+        public class SongInfo
+        {
+            public string song_name, artist, genre;
+            
+        }
         // public IActionResult OnPost()
         // {
         //     if (!ModelState.IsValid)
