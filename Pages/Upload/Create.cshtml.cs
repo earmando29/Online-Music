@@ -30,9 +30,14 @@ namespace CoogMusic.Pages.Upload
                 String connectionString="server=localhost;database=online_music;uid=root;password=7985;";
                 using (MySqlConnection connection = new MySqlConnection(connectionString)) {
                     connection.Open();
-                    String sql = "INSERT INTO song, artist" +
+                    String sql = "INSERT INTO song" +
                                 "(tile, genre) VALUES" + 
                                 "(@title, @genre);";
+                    using (MySqlCommand command = new MySqlCommand(sql, connection)) {
+                        command.Parameters.AddWithValue("@title", songInfo.title);
+                        command.Parameters.AddWithValue("@genre", songInfo.genre);
+                        command.ExecuteNonQuery();
+                    }  
                 }
             }
             catch (Exception ex) {
