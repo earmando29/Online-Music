@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/armandoespinoza/Documents/GitHub/Online-Music/CoogMusic.csproj": {}
+    "C:\\Users\\vianl\\Documents\\GitHub\\Online-Music\\CoogMusic.csproj": {}
   },
   "projects": {
-    "/Users/armandoespinoza/Documents/GitHub/Online-Music/CoogMusic.csproj": {
+    "C:\\Users\\vianl\\Documents\\GitHub\\Online-Music\\CoogMusic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/armandoespinoza/Documents/GitHub/Online-Music/CoogMusic.csproj",
+        "projectUniqueName": "C:\\Users\\vianl\\Documents\\GitHub\\Online-Music\\CoogMusic.csproj",
         "projectName": "CoogMusic",
-        "projectPath": "/Users/armandoespinoza/Documents/GitHub/Online-Music/CoogMusic.csproj",
-        "packagesPath": "/Users/armandoespinoza/.nuget/packages/",
-        "outputPath": "/Users/armandoespinoza/Documents/GitHub/Online-Music/obj/",
+        "projectPath": "C:\\Users\\vianl\\Documents\\GitHub\\Online-Music\\CoogMusic.csproj",
+        "packagesPath": "C:\\Users\\vianl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vianl\\Documents\\GitHub\\Online-Music\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/armandoespinoza/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\vianl\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
