@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xx7KpxPHtAOvGSoOWCeWaZ0wBHqEzZ5JK9a38L9nd3M=",
+  "Hash": "ImNR+qRvGx49ZFqz6qm4SJnVrVhqC6K6p76umh+XQ94=",
   "Source": "CoogMusic",
   "BasePath": "_content/CoogMusic",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\vianl\\Documents\\GitHub\\Online-Music\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CoogMusic.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\vianl\\Documents\\GitHub\\Online-Music\\wwwroot\\A_Pipotron's_Theme.mp3",
+      "SourceId": "CoogMusic",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vianl\\Documents\\GitHub\\Online-Music\\wwwroot\\",
+      "BasePath": "_content/CoogMusic",
+      "RelativePath": "A_Pipotron's_Theme.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\A_Pipotron's_Theme.mp3"
     },
     {
       "Identity": "C:\\Users\\vianl\\Documents\\GitHub\\Online-Music\\wwwroot\\css\\report.css",
