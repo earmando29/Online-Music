@@ -1510,19 +1510,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vianl\\.nuget\\packages\\": {}
+    "C:\\Users\\roshi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vianl\\Documents\\GitHub\\Online-Music\\CoogMusic.csproj",
+      "projectUniqueName": "C:\\Users\\roshi\\OneDrive\\Documents\\GitHub\\Online-Music\\CoogMusic.csproj",
       "projectName": "CoogMusic",
-      "projectPath": "C:\\Users\\vianl\\Documents\\GitHub\\Online-Music\\CoogMusic.csproj",
-      "packagesPath": "C:\\Users\\vianl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vianl\\Documents\\GitHub\\Online-Music\\obj\\",
+      "projectPath": "C:\\Users\\roshi\\OneDrive\\Documents\\GitHub\\Online-Music\\CoogMusic.csproj",
+      "packagesPath": "C:\\Users\\roshi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\roshi\\OneDrive\\Documents\\GitHub\\Online-Music\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vianl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\roshi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"

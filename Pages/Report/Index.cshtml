@@ -4,29 +4,156 @@
     ViewData["Title"] = "Report";
 }
 
-@* 
-Contains a way for the User (Listner and Artist) to create reports 
-Artist Report: View ratings of Artist (themselves) || List of each of song w/ ratings
-Listener Report: Hours of music streamed || Top 3 songs and Top 3 artists
- *@
-
 <div>
     <h1 class="text-center">Rating Reports</h1>
-    <p id="title">Song name</p>
-    <input type="text"></input> 
-    <button>Add another song </button>
-    <p>OR</p>
-    <p id="title">Artist name</p>
-    <input type="text"></input> 
-    <input type= "checkbox"> check to include all artist's song rating.
-   <button>Add another artist </button>
-    <br> <br>
-    <button>Submit</button>
 
-     <h1 class="text-center">Streaming Reports</h1>
-     <br> <br>
-     <button>Generate my streaming report</button>
+    <form>
+        <label for="song-name">Song name:</label>
+        <input type="text" id="song-name" name="song-name">
+        <button type="button" id="add-song-btn">Add another song</button>
 
+        <hr>
 
+        <label for="artist-name">Artist name:</label>
+        <input type="text" id="artist-name" name="artist-name">
+        <label>
+            <input type="checkbox" name="include-all-songs">
+            Include all artist's song ratings
+        </label>
+        <button type="button" id="add-artist-btn">Add another artist</button>
 
+        <hr>
+
+        <button type="submit" id="submit-btn">Submit</button>
+    </form>
+
+    <h1 class="text-center">Streaming Reports</h1>
+
+    <button type="button" id="generate-report-btn">Generate my streaming report</button>
 </div>
+
+<script>
+    const songInput = document.getElementById('song-name');
+    const addSongBtn = document.getElementById('add-song-btn');
+    const artistInput = document.getElementById('artist-name');
+    const includeAllSongsCheckbox = document.querySelector('input[name="include-all-songs"]');
+    const addArtistBtn = document.getElementById('add-artist-btn');
+    const submitBtn = document.getElementById('submit-btn');
+    const generateReportBtn = document.getElementById('generate-report-btn');
+
+    addSongBtn.addEventListener('click', function() {
+        // Add a new input field for the song
+        const newSongInput = document.createElement('input');
+        newSongInput.type = 'text';
+        newSongInput.name = 'song-name';
+        newSongInput.placeholder = 'Enter song name';
+        songInput.parentNode.insertBefore(newSongInput, addSongBtn);
+    });
+
+    addArtistBtn.addEventListener('click', function() {
+        // Add a new input field for the artist
+        const newArtistInput = document.createElement('input');
+        newArtistInput.type = 'text';
+        newArtistInput.name = 'artist-name';
+        newArtistInput.placeholder = 'Enter artist name';
+        artistInput.parentNode.insertBefore(newArtistInput, addArtistBtn);
+    });
+
+    submitBtn.addEventListener('click', function(event) {
+        event.preventDefault();
+        // Retrieve the values from the input fields
+        const songNames = Array.from(document.querySelectorAll('input[name="song-name"]')).map(input => input.value);
+        const artistNames = Array.from(document.querySelectorAll('input[name="artist-name"]')).map(input => input.value);
+        const includeAllSongs = includeAllSongsCheckbox.checked;
+        // Do something with the data, like submit it to a server using AJAX
+
+    });
+
+    generateReportBtn.addEventListener('click', function() {
+        // Generate a streaming report
+
+    });
+</script>
+
+
+<style>
+    /* Add some CSS styles to improve the appearance of the page */
+/* Set up basic layout */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style links */
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style buttons */
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+/* Style tables */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+</style>
